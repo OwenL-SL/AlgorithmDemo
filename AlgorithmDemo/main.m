@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Question3/Question3.h"
 #import "Question4/Question4.h"
+#import "Question5/Question5.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
@@ -32,7 +33,11 @@ int main(int argc, const char * argv[]) {
 //        NSLog(@"isFound: %d", isFound);
         
         // Question 5
-        
+//        Question5 *question = Question5.new;
+//        NSString *str = @" We are champion!!";
+//        NSLog(@"old str : %@", str);
+//        NSString *newStr = [question replaceSpace:str];
+//        NSLog(@"new str : %@", newStr);
     }
     return 0;
 }
