@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BDCAAB01229CDDEA00B78ED4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCAAB00229CDDEA00B78ED4 /* main.m */; };
 		BDCAAB09229CDE3600B78ED4 /* Question3.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCAAB08229CDE3600B78ED4 /* Question3.m */; };
+		BDCAAB0E229D185900B78ED4 /* Question4.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCAAB0D229D185900B78ED4 /* Question4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		BDCAAB00229CDDEA00B78ED4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BDCAAB07229CDE3600B78ED4 /* Question3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Question3.h; sourceTree = "<group>"; };
 		BDCAAB08229CDE3600B78ED4 /* Question3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Question3.m; sourceTree = "<group>"; };
+		BDCAAB0C229D185900B78ED4 /* Question4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Question4.h; sourceTree = "<group>"; };
+		BDCAAB0D229D185900B78ED4 /* Question4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Question4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +63,29 @@
 		BDCAAAFF229CDDEA00B78ED4 /* AlgorithmDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BDCAAB0B229D184000B78ED4 /* Question4 */,
+				BDCAAB0A229D182D00B78ED4 /* Question3 */,
 				BDCAAB00229CDDEA00B78ED4 /* main.m */,
+			);
+			path = AlgorithmDemo;
+			sourceTree = "<group>";
+		};
+		BDCAAB0A229D182D00B78ED4 /* Question3 */ = {
+			isa = PBXGroup;
+			children = (
 				BDCAAB07229CDE3600B78ED4 /* Question3.h */,
 				BDCAAB08229CDE3600B78ED4 /* Question3.m */,
 			);
-			path = AlgorithmDemo;
+			path = Question3;
+			sourceTree = "<group>";
+		};
+		BDCAAB0B229D184000B78ED4 /* Question4 */ = {
+			isa = PBXGroup;
+			children = (
+				BDCAAB0C229D185900B78ED4 /* Question4.h */,
+				BDCAAB0D229D185900B78ED4 /* Question4.m */,
+			);
+			path = Question4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDCAAB01229CDDEA00B78ED4 /* main.m in Sources */,
+				BDCAAB0E229D185900B78ED4 /* Question4.m in Sources */,
 				BDCAAB09229CDE3600B78ED4 /* Question3.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
