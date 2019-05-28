@@ -7,7 +7,7 @@
 //
 
 #import "Question3.h"
-
+ 
 @implementation Question3
 - (NSArray *)checkDuplicateNumber:(NSArray *)array {
     if (array.count == 0) {
