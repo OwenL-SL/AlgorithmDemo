@@ -10,7 +10,9 @@
 
 @implementation Question4
 - (BOOL)findNumber:(NSArray *)sourceArray targetNumber:(NSInteger)targetNumber {
-
+    
+    NSLog(@"Start to find number.");
+    
     if (sourceArray.count == 0) {
         return NO;
     }
