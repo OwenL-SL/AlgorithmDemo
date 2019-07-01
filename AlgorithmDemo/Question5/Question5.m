@@ -10,6 +10,7 @@
 
 @implementation Question5
 - (NSString *)replaceSpace:(NSString *)str {
+    NSLog(@"replace space : %@", str);
     NSInteger p1 = str.length - 1;
     NSMutableString *newStr = [NSMutableString stringWithString:str];
     for (NSInteger i = 0; i < str.length - 1; i++) {
